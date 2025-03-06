@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Logo and name on the right */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Menu on the left */
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-container input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+.menu-container button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Adjust button appearance */
+.menu-container button:hover {
+    background-color: #555;
+}

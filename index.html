@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKONTABU</title>
+    <link rel="icon" href="{{url_for('static', filename='Img/AKONTABU.jpg')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/main.css') }}">
+    <script src="{{url_for('static',filename='JS/java.js')}}"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Menu on the left -->
+        <div class="menu-container">
+            <input type="text" id="search" placeholder="Search...">
+            <button onclick="alert('Sign Up clicked!')">Sign Up</button>
+            <button onclick="alert('Sign In clicked!')">Sign In</button>
+        </div>
+
+        <!-- Logo and Name on the right -->
+        <div class="logo-container">
+            <img src="{{url_for('static', filename='Img/AKONTABU.jpg')}}" alt="Logo">
+            <h1>My Website</h1>
+        </div>
+    </header>
+
+</body>
+</html>
