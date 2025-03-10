@@ -12,19 +12,36 @@
 
     <!-- Header Section -->
     <header class="header">
-        <!-- Menu on the left -->
+        <!-- Logo and Name on the left -->
+        
+        <div class="logo-container">
+            <img src="{{url_for('static', filename='Img/AKONTABU.jpg')}}" alt="Logo">
+            <h1>AKONTABU</h1>
+            <button>Home</button>
+            <button>Product</button>
+            <button>About Us</button>
+            <button>Contact Us</button>
+            <button>Donate</button>
+        </div>
+        <!-- Menu on the right -->
         <div class="menu-container">
             <input type="text" id="search" placeholder="Search...">
             <button onclick="alert('Sign Up clicked!')">Sign Up</button>
             <button onclick="alert('Sign In clicked!')">Sign In</button>
         </div>
-
-        <!-- Logo and Name on the right -->
-        <div class="logo-container">
-            <img src="{{url_for('static', filename='Img/AKONTABU.jpg')}}" alt="Logo">
-            <h1>My Website.</h1>
-        </div>
     </header>
 
 </body>
+<div class="Home">
+    <img src="{{url_for('static', filename='Img/AKONTABU.jpg')}}" alt="Logo">
+    <div class="home_text">
+        <p>
+        Welcome to AKONTABU – Empowering Small & Medium Traders with Smart Business Management Solutions
+
+        AKONTABU is a powerful, easy-to-use business management platform designed specifically for small and medium traders. Whether you're managing inventory, tracking sales, or analyzing business profitability, AKONTABU streamlines the process, so you can focus on growing your business. From generating reports to issuing receipts, AKONTABU offers all the tools you need to succeed. Get started today and take control of your business!
+        </p>
+    </div>
+</div>
+
+
 </html>
