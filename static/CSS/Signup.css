@@ -51,3 +51,12 @@ body {
     .toggle:hover {
       text-decoration: underline;
     }
+    .background {
+      background-image: url('/static/Img/AKONTABU.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Make sure the background covers the entire screen */
+      margin: 0;
+  }
+  
+    
