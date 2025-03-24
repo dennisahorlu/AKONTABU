@@ -20,7 +20,7 @@
     <input type="password" id="password" placeholder="Password" required>
     <input type="text" id="phone" placeholder="Phone Number (optional)">
     <button id="submit-btn">Sign Up</button>
-    <div class="toggle" id="toggle-form">Already have an account? <a href="/templates/Signin.html">SIGN IN</a></div>
+    <div class="toggle" id="toggle-form">Already have an account? <a href="{{ url_for('signin')}}">SIGN IN</a></div>
   </div>
 
   <!-- Firebase SDK -->

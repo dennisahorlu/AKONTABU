@@ -10,5 +10,10 @@ def csshtml():
 def signup():
     return render_template('Signup.html')
 
+@app.route('/signin')
+def signin():
+    return render_template('signin.html')
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)

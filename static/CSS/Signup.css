@@ -31,6 +31,12 @@ body {
       border: 1px solid #ccc;
       border-radius: 4px;
     }
+    .background {
+      background-image: url('/static/Img/AKONTABU.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Make sure the background covers the entire screen */
+      margin: 0;}
     button {
       width: 100%;
       padding: 10px;
@@ -51,12 +57,5 @@ body {
     .toggle:hover {
       text-decoration: underline;
     }
-    .background {
-      background-image: url('/static/Img/AKONTABU.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh; /* Make sure the background covers the entire screen */
-      margin: 0;
-  }
   
     
